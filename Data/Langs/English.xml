@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2010-2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == Modify if you know what you do only!
 // == File is a part of IGCN Group MuOnline Server files.
@@ -569,7 +569,7 @@
 		<Msg ID="540" Text="Grow Lancer" />
 		<Msg ID="541" Text="Cannot be used with selection of items, e.g. Sockets, Pentagrams or Fourth Wings" />
 		<Msg ID="542" Text="Can be used only with socket items of socket count lower than 5" />
-		<Msg ID="543" Text="Offline Levelling is available between %s:%s - %s:%s, now is %s." />
+		<Msg ID="543" Text="Offline Leveling is available between %s:%s - %s:%s, now is %s." />
 		<Msg ID="544" Text="Entered Game!" />
 		<Msg ID="545" Text="Use of prohibited symbol detected in Chat" />
 		<Msg ID="546" Text="Prohibited symbol detected in Guild Name" />
@@ -629,8 +629,8 @@
 		<Msg ID="600" Text="[BONUS EVENT] Started, enjoy higher rates for next %d hour(s). Time Left: %d minutes" />
 		<Msg ID="601" Text="You can post only one time per %d second(s)" />
 		<Msg ID="602" Text="Your VIP Level is too low, need at least %d" />
-		<Msg ID="603" Text="Off-Level activated with %s (%d) skill" />
-		<Msg ID="604" Text="Skill %s (%d) has not been found, please learn it to be able to use it" />
+		<Msg ID="603" Text="[Off-Level] Activated in Attack Mode with %s (%d) skill." />
+		<Msg ID="604" Text="[Off-Level] Activated in Party Buff Only Mode." />
 		<Msg ID="605" Text="Your VIP Level (%s) is to low to trade with me, upgrade your VIP to %s at least and come back again!" />
 		<Msg ID="606" Text="The target character's account is locked" />
 		<Msg ID="607" Text="Only one Talisman can be used at same time." />
@@ -799,7 +799,7 @@
 		<!-- 773 -->
 		<Msg ID="774" Text="Creating party is possible only if level difference between players is not higher than %d" />
 		<Msg ID="775" Text="Maximum time of %d minutes in the boss zone passed, moving to safe zone." />
-		<Msg ID="776" Text="[Off-Level] Configure Mu Helper with basic attack skill before entering Offline Leveling." />
+		<Msg ID="776" Text="[Off-Level] Configure Basic Attack skill or one buff in Helper settings before starting OffLevel." />
 		<Msg ID="777" Text="Luckily spawned in place where your soul left the body last time." />
 		<Msg ID="778" Text="You need to wait %d more seconds to ride it again." />
 		<Msg ID="779" Text="Game Server %s entered the game and is available in %s at %d,%d." />
@@ -1003,5 +1003,6 @@
 		<Msg ID="138" Text="Volcano Ignis" />
 		<Msg ID="139" Text="Boss Zone (entrance)" />
 		<Msg ID="140" Text="Bloody Tarkan" />
+		<Msg ID="141" Text="Tormenta Island" />
 	</Map>
 </Language>

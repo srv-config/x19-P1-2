@@ -31,7 +31,7 @@
 -->
 
 <MasteryExcOptions>
-<!-- Bloodangel Sword -->
+<!-- Blood Angel Sword -->
 	<Item KindA="14" Cat="0" Index="42" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="42" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="42" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -56,7 +56,7 @@
 	<Item KindA="14" Cat="0" Index="42" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="42" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="42" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Magic Sword -->
+<!-- Blood Angel Magic Sword -->
 	<Item KindA="14" Cat="0" Index="44" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="44" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="44" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -106,7 +106,7 @@
 	<Item KindA="14" Cat="0" Index="89" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="89" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="89" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Claw -->
+<!-- Blood Angel Claw -->
 	<Item KindA="14" Cat="0" Index="46" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="46" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="46" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -131,7 +131,7 @@
 	<Item KindA="14" Cat="0" Index="46" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="46" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="46" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Short Sword -->
+<!-- Blood Angel Short Sword -->
 	<Item KindA="14" Cat="0" Index="71" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="71" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="71" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -156,7 +156,7 @@
 	<Item KindA="14" Cat="0" Index="71" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="71" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="0" Index="71" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Scepter -->
+<!-- Blood Angel Scepter -->
 	<Item KindA="14" Cat="2" Index="22" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="2" Index="22" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="2" Index="22" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -181,7 +181,7 @@
 	<Item KindA="14" Cat="2" Index="22" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="2" Index="22" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="2" Index="22" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Runic Mace -->
+<!-- Blood Angel Runic Mace -->
 	<Item KindA="14" Cat="2" Index="32" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="2" Index="32" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="2" Index="32" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -206,7 +206,7 @@
 	<Item KindA="14" Cat="2" Index="32" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="2" Index="32" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="2" Index="32" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Lance -->
+<!-- Blood Angel Lance -->
 	<Item KindA="14" Cat="3" Index="19" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="3" Index="19" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="3" Index="19" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -231,7 +231,7 @@
 	<Item KindA="14" Cat="3" Index="19" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="3" Index="19" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="3" Index="19" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Bow -->
+<!-- Blood Angel Bow -->
 	<Item KindA="14" Cat="4" Index="28" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="28" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="28" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -256,7 +256,7 @@
 	<Item KindA="14" Cat="4" Index="28" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="28" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="28" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Quiver -->
+<!-- Blood Angel Quiver -->
 	<Item KindA="14" Cat="4" Index="34" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="34" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="34" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -281,7 +281,7 @@
 	<Item KindA="14" Cat="4" Index="34" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="34" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="34" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Magic Gun -->
+<!-- Blood Angel Magic Gun -->
 	<Item KindA="14" Cat="4" Index="48" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="48" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="48" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -306,7 +306,7 @@
 	<Item KindA="14" Cat="4" Index="48" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="48" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="4" Index="48" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Staff -->
+<!-- Blood Angel Staff -->
 	<Item KindA="14" Cat="5" Index="41" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="41" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="41" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -331,7 +331,7 @@
 	<Item KindA="14" Cat="5" Index="41" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="41" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="41" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Stick -->
+<!-- Blood Angel Stick -->
 	<Item KindA="14" Cat="5" Index="43" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="43" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="43" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -356,7 +356,7 @@
 	<Item KindA="14" Cat="5" Index="43" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="43" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="43" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Book of Bloodangel -->
+<!-- Book of Blood Angel -->
 	<Item KindA="14" Cat="5" Index="57" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="57" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="57" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -381,32 +381,7 @@
 	<Item KindA="14" Cat="5" Index="57" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="57" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="57" ExcOption="0;3;6;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />	
-<!-- Blood Angel Fairy Shield -->
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;4;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;4;19;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;4;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;6;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;6;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;6;19;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;7;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;7;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;7;19;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;8;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;8;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;8;19;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;3;6;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="80000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;4;7;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;4;7;19;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;4;7;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;3;8;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;3;8;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-	<Item KindA="27" Cat="6" Index="34" ExcOption="10;3;8;19;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
-<!-- Bloodangel Shield -->
+<!-- Blood Angel Shield -->
 	<Item KindA="18" Cat="6" Index="44" ExcOption="10;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="18" Cat="6" Index="44" ExcOption="10;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="18" Cat="6" Index="44" ExcOption="10;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
@@ -431,6 +406,56 @@
 	<Item KindA="18" Cat="6" Index="44" ExcOption="10;3;8;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="18" Cat="6" Index="44" ExcOption="10;3;8;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="18" Cat="6" Index="44" ExcOption="10;3;8;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+<!-- Blood Angel Fairy Shield -->
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;4;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;4;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;4;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;6;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;6;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;6;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;7;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;7;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;7;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;8;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;8;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;8;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;3;6;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="80000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;4;7;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;4;7;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;4;7;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;3;8;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;3;8;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="27" Cat="6" Index="34" ExcOption="11;3;8;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+<!-- Blood Angel Lancer Shield -->
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;4;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;4;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;4;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;6;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;6;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;6;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;7;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;7;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;7;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;12;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;12;-1;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;12;-1;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;3;6;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="80000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;3;6;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;3;6;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;4;7;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;4;7;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;4;7;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;3;12;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;3;12;-1;-1;-1;-1;-1;-1" BonusOption="2" Rate="40000" LuckRate="500000" SkillRate="1000000" />
+	<Item KindA="33" Cat="6" Index="60" ExcOption="10;3;12;-1;-1;-1;-1;-1;-1" BonusOption="3" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 <!-- Blood Angel Magic Book -->
 	<Item KindA="14" Cat="5" Index="73" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="-1" Rate="40000" LuckRate="500000" SkillRate="1000000" />
 	<Item KindA="14" Cat="5" Index="73" ExcOption="0;3;-1;-1;-1;-1;-1;-1;-1" BonusOption="1" Rate="40000" LuckRate="500000" SkillRate="1000000" />

@@ -63,8 +63,8 @@
 	<Warp Index="18" ServerName="LostTower 5" ClientName="LostTower5" MinLevel="50" MaxLevel="-1" ReqMoney="7000" ReqVipLevel="-1" GateNumber="37" DifficultyOrder="20" AlphabetOrder="23" MonsterClassification="40" />
 	<Warp Index="19" ServerName="LostTower 6" ClientName="LostTower6" MinLevel="70" MaxLevel="-1" ReqMoney="7500" ReqVipLevel="-1" GateNumber="39" DifficultyOrder="21" AlphabetOrder="24" MonsterClassification="35" />
 	<Warp Index="20" ServerName="LostTower 7" ClientName="LostTower7" MinLevel="70" MaxLevel="-1" ReqMoney="8000" ReqVipLevel="-1" GateNumber="41" DifficultyOrder="22" AlphabetOrder="25" MonsterClassification="35" />
-	<Warp Index="21" ServerName="Tarkan" ClientName="Tarkan" MinLevel="140" MaxLevel="-1" ReqMoney="8000" ReqVipLevel="-1" GateNumber="57" DifficultyOrder="25" AlphabetOrder="65" MonsterClassification="57" />
-	<Warp Index="22" ServerName="Tarkan 2" ClientName="Tarkan2" MinLevel="160" MaxLevel="-1" ReqMoney="8500" ReqVipLevel="-1" GateNumber="77" DifficultyOrder="28" AlphabetOrder="66" MonsterClassification="61" />
+	<Warp Index="21" ServerName="Tarkan" ClientName="Tarkan" MinLevel="140" MaxLevel="-1" ReqMoney="8000" ReqVipLevel="-1" GateNumber="57" DifficultyOrder="25" AlphabetOrder="64" MonsterClassification="57" />
+	<Warp Index="22" ServerName="Tarkan 2" ClientName="Tarkan2" MinLevel="160" MaxLevel="-1" ReqMoney="8500" ReqVipLevel="-1" GateNumber="77" DifficultyOrder="28" AlphabetOrder="65" MonsterClassification="61" />
 	<Warp Index="50" ServerName="Ferea" ClientName="Ferea" MinLevel="400" MaxLevel="-1" ReqMoney="50000" ReqVipLevel="-1" GateNumber="509" DifficultyOrder="40" AlphabetOrder="67" MonsterClassification="730" />
 	<Warp Index="25" ServerName="Aida" ClientName="Aida1" MinLevel="150" MaxLevel="-1" ReqMoney="8500" ReqVipLevel="-1" GateNumber="119" DifficultyOrder="26" AlphabetOrder="31" MonsterClassification="306" />
 	<Warp Index="26" ServerName="Crywolf" ClientName="Crywolf" MinLevel="10" MaxLevel="-1" ReqMoney="0" ReqVipLevel="-1" GateNumber="118" DifficultyOrder="56" AlphabetOrder="58" MonsterClassification="-1" />
@@ -101,6 +101,7 @@
 	<Warp Index="68" ServerName="Kanturu Undergrounds" ClientName="Kanturu Undergrounds" MinLevel="1190" MaxLevel="-1" ReqMoney="50000" ReqVipLevel="-1" GateNumber="670" DifficultyOrder="67" AlphabetOrder="49" MonsterClassification="905" />
 	<Warp Index="69" ServerName="Ignis Volcano" ClientName="Ignis Volcano" MinLevel="1220" MaxLevel="-1" ReqMoney="50000" ReqVipLevel="-1" GateNumber="675" DifficultyOrder="68" AlphabetOrder="45" MonsterClassification="911" />
 	<Warp Index="70" ServerName="Bloody Tarkan" ClientName="Blood Tarkan" MinLevel="1250" MaxLevel="-1" ReqMoney="50000" ReqVipLevel="-1" GateNumber="682" DifficultyOrder="69" AlphabetOrder="28" MonsterClassification="926" />
+	<Warp Index="71" ServerName="Tormenta Island" ClientName="Tormenta Island" MinLevel="1280" MaxLevel="-1" ReqMoney="50000" ReqVipLevel="-1" GateNumber="694" DifficultyOrder="70" AlphabetOrder="66" MonsterClassification="942" />
 	<!-- <Warp Index="35" ServerName="Kalima 1" ClientName="Kalima1" MinLevel="40" MaxLevel="-1" ReqMoney="0" ReqVipLevel="-1" GateNumber="88" DifficultyOrder="49" AlphabetOrder="55" MonsterClassification="160" /> -->
 	<!-- <Warp Index="36" ServerName="Kalima 2" ClientName="Kalima2" MinLevel="131" MaxLevel="-1" ReqMoney="0" ReqVipLevel="-1" GateNumber="89" DifficultyOrder="50" AlphabetOrder="56" MonsterClassification="180" /> -->
 	<!-- <Warp Index="37" ServerName="Kalima 3" ClientName="Kalima3" MinLevel="181" MaxLevel="-1" ReqMoney="0" ReqVipLevel="-1" GateNumber="90" DifficultyOrder="51" AlphabetOrder="57" MonsterClassification="188" /> -->

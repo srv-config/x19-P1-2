@@ -189,6 +189,7 @@ function LoadItemBag() -- Bags Load
 	AddItemBag(BAG_DROP, MakeItemID(14,493),0, 'Item_(14,493,0)_Term_Wing_Box') -- DropFunction /1/
 	-- AddItemBag(BAG_DROP, MakeItemID(14,496),0, 'Item_(14,496,0)_30_Day_Mastery_Weapon_Box') -- DropFunction /1/
 	AddItemBag(BAG_DROP, MakeItemID(14,503), 0, 'Item_(14,503,0)_Maple_Play_Box') -- DropFunction /1/
+	AddItemBag(BAG_DROP, MakeItemID(20,231), 0, 'Item_(20,231)_60-Day_Dark_Angel_Armor_Box') -- DropFunction /1/
 
 -- ====================================================================
 -- ItemBags -- BagType, MakeItemID(Type,Index), ItemLevel, 'FileName'

@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2020 IGC-Network (R)
+// == (C) 2010-2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -631,20 +631,22 @@
 		<Tree Type="1"> <!-- Retaliation - Skill Enhancement (Mirage Lancer) -->
 			<Skill Index="37" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="325" ValueType="0" Name="Attack Success Rate Increase" />
 			<Skill Index="41" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="329" ValueType="1" Name="Lunge Strengthener" />
-			<Skill Index="42" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="687" ValueType="1" Name="Spin Step PowUp" />
-			<Skill Index="43" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="688" ValueType="1" Name="Harsh Strike PowUp" />
+			<Skill Index="42" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="688" ValueType="1" Name="Harsh Strike Strengthener" />
+			<Skill Index="43" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="687" ValueType="1" Name="Spin Step Strengthener" />
 			<Skill Index="48" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="689" ValueType="0" Name="Weapon Mastery" />
-			<Skill Index="50" ReqMinPoint="1" MaxPoint="20" ParentSkill1="687" ParentSkill2="0" MagicNumber="690" ValueType="1" Name="Spin Step Mastery" />
-			<Skill Index="51" ReqMinPoint="10" MaxPoint="10" ParentSkill1="688" ParentSkill2="0" MagicNumber="691" ValueType="0" Name="Harsh Strike Mastery" />
+			<Skill Index="49" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="693" ValueType="1" Name="Obsidian Strengthener" />
+			<Skill Index="50" ReqMinPoint="10" MaxPoint="10" ParentSkill1="688" ParentSkill2="0" MagicNumber="691" ValueType="1" Name="Harsh Strike Mastery" />
+			<Skill Index="51" ReqMinPoint="1" MaxPoint="20" ParentSkill1="687" ParentSkill2="0" MagicNumber="690" ValueType="1" Name="Spin Step Mastery" />
 			<Skill Index="52" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="334" ValueType="0" Name="Maximum Life Increase" />
-			<Skill Index="53" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="693" ValueType="0" Name="Obsidian PowUp" />
-			<Skill Index="54" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="692" ValueType="1" Name="Magic Pin PowUp" />
-			<Skill Index="55" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="696" ValueType="1" Name="Breche PowUp" />
+			<Skill Index="54" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="696" ValueType="1" Name="Breche Strengthener" />
+			<Skill Index="55" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="692" ValueType="1" Name="Magic Pin Strengthener" />
 			<Skill Index="56" ReqMinPoint="1" MaxPoint="20" ParentSkill1="334" ParentSkill2="0" MagicNumber="338" ValueType="0" Name="Maximum Mana Increase" />
+			<Skill Index="57" ReqMinPoint="1" MaxPoint="20" ParentSkill1="698" ParentSkill2="0" MagicNumber="699" ValueType="1" Name="Shining Peak Strengthener" />
+			<Skill Index="58" ReqMinPoint="10" MaxPoint="10" ParentSkill1="696" ParentSkill2="0" MagicNumber="698" ValueType="1" Name="Breche Mastery" />
+			<Skill Index="59" ReqMinPoint="10" MaxPoint="10" ParentSkill1="692" ParentSkill2="0" MagicNumber="695" ValueType="0" Name="Magic Pin Mastery" />
 			<Skill Index="60" ReqMinPoint="1" MaxPoint="20" ParentSkill1="338" ParentSkill2="0" MagicNumber="341" ValueType="0" Name="Maximum AG Increase" />
-			<Skill Index="61" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="699" ValueType="1" Name="Shining Peak PowUp" />
-			<Skill Index="62" ReqMinPoint="10" MaxPoint="10" ParentSkill1="692" ParentSkill2="0" MagicNumber="695" ValueType="0" Name="Magic Pin Mastery" />
-			<Skill Index="63" ReqMinPoint="10" MaxPoint="10" ParentSkill1="696" ParentSkill2="0" MagicNumber="698" ValueType="0" Name="Breche Mastery" />
+			<Skill Index="62" ReqMinPoint="1" MaxPoint="20" ParentSkill1="698" ParentSkill2="0" MagicNumber="896" ValueType="1" Name="Wild Breath Strengthener" />
+			<Skill Index="63" ReqMinPoint="1" MaxPoint="20" ParentSkill1="695" ParentSkill2="0" MagicNumber="894" ValueType="1" Name="Oversting Strengthener" />
 			<Skill Index="64" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="743" ValueType="0" Name="Boost maximum vitality" />
 			<Skill Index="66" ReqMinPoint="10" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="700" ValueType="0" Name="Burst" />
 			<Skill Index="70" ReqMinPoint="1" MaxPoint="20" ParentSkill1="700" ParentSkill2="0" MagicNumber="701" ValueType="2" Name="Burst PowUp" />
@@ -657,14 +659,12 @@
 			<Skill Index="81" ReqMinPoint="1" MaxPoint="20" ParentSkill1="702" ParentSkill2="0" MagicNumber="705" ValueType="0" Name="Lance Mastery" />
 			<Skill Index="82" ReqMinPoint="1" MaxPoint="20" ParentSkill1="703" ParentSkill2="0" MagicNumber="706" ValueType="0" Name="Circle Shield Mastery" />
 			<Skill Index="84" ReqMinPoint="1" MaxPoint="20" ParentSkill1="704" ParentSkill2="0" MagicNumber="707" ValueType="0" Name="Shield Mastery" />
-			<Skill Index="85" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="708" ValueType="0" Name="Wrath PowUp" />
+			<Skill Index="85" ReqMinPoint="1" MaxPoint="10" ParentSkill1="0" ParentSkill2="0" MagicNumber="895" ValueType="0" Name="Wrath Strengthener" />
 			<Skill Index="86" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="357" ValueType="0" Name="Mana Reduction" />
 			<Skill Index="87" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="358" ValueType="0" Name="Monster Attack SD Increment" />
 			<Skill Index="88" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="359" ValueType="0" Name="Monster Attack Life Increment" />
-			<Skill Index="89" ReqMinPoint="1" MaxPoint="20" ParentSkill1="708" ParentSkill2="0" MagicNumber="709" ValueType="2" Name="Wrath Proficiency" />
 			<Skill Index="90" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="361" ValueType="0" Name="Minimum Attack Power Increase" />
 			<Skill Index="92" ReqMinPoint="1" MaxPoint="20" ParentSkill1="359" ParentSkill2="0" MagicNumber="362" ValueType="0" Name="Monster Attack Mana Increment" />
-			<Skill Index="93" ReqMinPoint="10" MaxPoint="10" ParentSkill1="709" ParentSkill2="0" MagicNumber="710" ValueType="0" Name="Wrath Mastery" />
 			<Skill Index="94" ReqMinPoint="1" MaxPoint="20" ParentSkill1="361" ParentSkill2="0" MagicNumber="364" ValueType="0" Name="Maximum Attack Power Increase" />
 			<Skill Index="96" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="366" ValueType="0" Name="Increases critical damage rate" />
 			<Skill Index="97" ReqMinPoint="1" MaxPoint="20" ParentSkill1="0" ParentSkill2="0" MagicNumber="367" ValueType="0" Name="Restores all Mana" />

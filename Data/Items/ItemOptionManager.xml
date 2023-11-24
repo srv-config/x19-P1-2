@@ -281,10 +281,6 @@
 	<Section ID="57">
 		<Item Cat="13" Index="177" Option1="87" Value1="50" Option2="0" Value2="0" Time="-10" /> <!-- Talisman of Ascension I -->
 	</Section>
-	
-	<Section ID="83">
-		<Item Cat="13" Index="476" Option1="87" Value1="50" Option2="0" Value2="0" Time="-10" /> <!-- [PC] Talisman of Ascension II -->
-	</Section>
 
 	<Section ID="58">
 		<Item Cat="13" Index="178" Option1="87" Value1="100" Option2="0" Value2="0" Time="-10" /> <!-- Talisman of Ascension II -->
@@ -357,10 +353,6 @@
 	<Section ID="75">
 		<Item Cat="13" Index="4" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Dark Horse -->
 	</Section>
-	
-	<Section ID="82">
-		<Item Cat="13" Index="5" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Dark Raven -->
-	</Section>
 
 	<Section ID="76">
 		<Item Cat="13" Index="37" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Horn of Fenrir -->
@@ -374,10 +366,6 @@
 		<Item Cat="14" Index="264" Option1="88" Value1="100" Option2="0" Value2="0"	Time="1800" /> <!-- Bless of Light (Middle Grade) -->
 	</Section>
 	
-	<Section ID="87">
-		<Item Cat="14" Index="366" Option1="88" Value1="50" Option2="1" Value2="10" Time="1800" /> <!-- Piece of Pizza -->
-	</Section>
-	
 	<Section ID="79">
 		<Item Cat="14" Index="371" Option1="88" Value1="200" Option2="0" Value2="0" Time="1800" /> <!-- [Bound] Bless of Light (Higher) -->
 	</Section>
@@ -388,6 +376,14 @@
 	
 	<Section ID="81">
 		<Item Cat="14" Index="373" Option1="88" Value1="50" Option2="0" Value2="0" Time="1800" /> <!-- [Bound] Bless of Light (Lower) -->
+	</Section>
+	
+	<Section ID="82">
+		<Item Cat="13" Index="5" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Dark Raven -->
+	</Section>
+	
+	<Section ID="83">
+		<Item Cat="13" Index="476" Option1="87" Value1="50" Option2="0" Value2="0" Time="-10" /> <!-- [PC] Talisman of Ascension II -->
 	</Section>
 	
 	<Section ID="84">
@@ -415,5 +411,13 @@
 		<Item Cat="12" Index="473" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Ghost Horse -->
 		<Item Cat="12" Index="483" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Ice Dragon -->
 		<Item Cat="12" Index="484" Option1="0" Value1="0" Option2="0" Value2="0" Time="-10" /> <!-- Ice Dragon (Rare) -->
+	</Section>
+	
+	<Section ID="87">
+		<Item Cat="14" Index="366" Option1="88" Value1="50" Option2="1" Value2="10" Time="1800" /> <!-- Piece of Pizza -->
+	</Section>
+	
+	<Section ID="88">
+		<Item Cat="14" Index="69" Option1="88" Value1="200" Option2="0" Value2="0" Time="1800" /> <!-- [PC Room][Bound] Blessing of Light (Advanced) -->
 	</Section>
 </ItemOptionManager>

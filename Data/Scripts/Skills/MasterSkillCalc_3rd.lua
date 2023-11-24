@@ -1,7 +1,7 @@
 -- // ============================================================
 -- // == INTERNATIONAL GAMING CENTER NETWORK
 -- // == www.igcn.mu
--- // == (C) 2022 IGC-Network (R)
+-- // == (C) 2010-2023 IGC-Network (R)
 -- // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- // == File is a part of IGCN Group MuOnline Server files.
 -- // ============================================================
@@ -547,7 +547,6 @@ function FireSlash_MasterLevel1_Gladiator(InDamage, Strength, Energy, BarrageCou
     return OutDamage
 end
 
-
 -- SkillID: 492, Flame Strike Strengthener - (Duel Master)
 function FlameStrike_MasterLevel1_Gladiator(InDamage, Energy)
 	local OutDamage = InDamage * 2
@@ -571,8 +570,6 @@ function FireSlash_MasterLevel2_Gladiator(InDamage, Strength, Energy, BarrageCou
 	
     return OutDamage
 end
-
-
 
 -- SkillID: 495, Earth Prison - (Duel Master)
 function EarthPrison_Level1()
@@ -949,39 +946,26 @@ function GrowLancerShiningPeak_Level1(InDamage, Strength, Dexterity, SkillTreeBo
 	return OutDamage
 end
 
--- SkillID: 708, Wrath PowUp - (Mirage Lancer)
-function GrowLancerWrath_Level1(Strength, Dexterity, Energy)
-	local SkillIncDamage = 50
-	local SkillDecDefense = 30
-	local SkillTime = 15
-
-	return SkillIncDamage, SkillDecDefense, SkillTime
-end
-
--- SkillID: 709, Wrath Proficiency - (Mirage Lancer)
-function GrowLancerWrath_Level2(Strength, Dexterity, Energy)
-	local SkillIncDamage = 50
-	local SkillDecDefense = 30
-	local SkillTime = 15
-
-	return SkillIncDamage, SkillDecDefense, SkillTime
-end
-
--- SkillID: 710, Wrath Mastery - (Mirage Lancer)
-function GrowLancerWrath_Level3(Strength, Dexterity, Energy)
-	local SkillIncDamage = 50
-	local SkillDecDefense = 30
-	local SkillTime = 15
-
-	return SkillIncDamage, SkillDecDefense, SkillTime
-end
-
 -- SkillID: 693, Obsidian PowUp - (Mirage Lancer)
 function GrowLancerObsidian_Level1(Index, TargetIndex, TargetClass, Strength, Dexterity, Energy)
 	local SkillEffect = Strength / 20
-	local SkillTime = 120
+	local SkillTime = 240
 
 	return SkillEffect, SkillTime
+end
+
+-- SkillID: 894, Oversting
+function GrowLancerOversting_Level1(InDamage, Dexterity, SkillTreeBonus)
+	local OutDamage = (InDamage * 1.0) * (Dexterity / 10 + 97 + SkillTreeBonus) / 100.0
+
+	return OutDamage
+end
+
+-- SkillID: 896, Wild Breath
+function GrowLancerWildBreath_Level1(InDamage, Strength, SkillTreeBonus)
+	local OutDamage = (InDamage * 0.5) * (Strength / 10 + 97 + SkillTreeBonus) / 100.0
+
+	return OutDamage
 end
 
 -- SkillID: 744, Phoenix Shot Strengthener - (Fist Master)
@@ -1477,11 +1461,11 @@ function LemuriaMageDefense_Level1(Class, Index, TargetIndex, Energy)
 			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_RUNEWIZARD) then
 			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_SLAYER) then
+			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_GUNCRUSHER) then
 			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_LIGHTWIZARD) then
-			SkillEffect = 2 + Energy / 16
-		elseif (Class == CLASS_SLAYER) then
 			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = 2 + Energy / 16
@@ -1521,9 +1505,9 @@ function LemuriaMageDefense_Level2(Class, Index, TargetIndex, Energy)
 			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_SLAYER) then
 			SkillEffect = 2 + Energy / 16
-		elseif (Class == CLASS_LIGHTWIZARD) then
-			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_GUNCRUSHER) then
+			SkillEffect = 2 + Energy / 16
+		elseif (Class == CLASS_LIGHTWIZARD) then
 			SkillEffect = 2 + Energy / 16
 		elseif (Class == CLASS_LEMURIAMAGE) then
 			SkillEffect = 2 + Energy / 16

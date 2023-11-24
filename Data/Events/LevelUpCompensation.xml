@@ -32,7 +32,7 @@
 -->
 
 <LevelUpCompensation Enable="0" IgnoreResets="0">
-	<Compensation Level="1550" StartDate="2023-07-01 00:00" EndDate="2023-08-01 00:00" DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1">
-		<Item Cat="16" Index="168" Level="1" Durability="0" />
+	<Compensation Level="1600" StartDate="2023-10-01 00:00" EndDate="2023-12-31 23:59" DW="1" DK="1" ELF="1" MG="1" DL="1" SU="1" RF="1" GL="1" RW="1" SLA="1" GC="1" LW="1" LM="1" IK="1">
+		<Item Cat="16" Index="169" Level="1" Durability="0" />
 	</Compensation>
 </LevelUpCompensation>

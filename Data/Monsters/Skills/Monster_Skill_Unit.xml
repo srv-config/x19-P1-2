@@ -166,4 +166,5 @@
 	<Unit Number="152" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="25" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Underground Persona - Demon" />
 	<Unit Number="154" TargetType="1" ScopeType="-1" ScopeAngle="-1" ScopeValue="0" Delay="300" ElementSlot0="28" ElementSlot1="-1" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Underground Dread - 2 times a peer" />
 	<Unit Number="155" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="6" Delay="300" ElementSlot0="155" ElementSlot1="156" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Magma Shaman AOE Skill" />
+	<Unit Number="164" TargetType="1" ScopeType="0" ScopeAngle="-1" ScopeValue="3" Delay="300" ElementSlot0="157" ElementSlot1="158" ElementSlot2="-1" ElementSlot3="-1" ElementSlot4="-1" Name="Storm Fiend AOE Skill" />
 </MonsterSkill>

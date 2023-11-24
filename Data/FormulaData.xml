@@ -100,6 +100,10 @@
 //		~ 39: Dex Booster Duration Time
 //		~ 40: Dex Booster Attack Speed Increase
 //		~ 42: Illusion Blade Attack Damage
+//		~ 44: Wrath Combat Power Increase
+//		~ 45: Oversting damage decrease
+//		~ 46: Wrath Damage Increase
+//		~ 47: Wrath Defense Decrease
 //
 // ### FormulaData::CombatPower::Formula ###
 //	ID: Next unique ID of formula, starts from 0
@@ -157,6 +161,7 @@
 		<Formula ID="7" Data="((%d/200)+((%d*4)^1.11))" /> <!-- ItemDropLevel, PlayerLevel -->
 		<Formula ID="8" Data="((%d/200)+((%d*3)^1.1))" /> <!-- ItemDropLevel, PlayerLevel -->
 		<Formula ID="9" Data="(%d*0.05)^1.4" /> <!-- ItemDropLevel -->
+		<Formula ID="10" Data="(%d-130)/10*15" /> <!-- ItemDropLevel -->
 	</ExcellentOption>
 	
 	<SetAddStatOption>
@@ -486,7 +491,12 @@
 		<Formula ID="308" Data="((((((5+%d)^1.6)/4)*4)/5)*4.5)" /> <!-- SkillPoint -->
 		<Formula ID="309" Data="((((((5+%d)^1.6)/4)*4)/5)*5)" /> <!-- SkillPoint -->
 		<Formula ID="310" Data="((((((5+%d)^1.6)/5)*4)/5)*3.5)" /> <!-- SkillPoint -->
-		<Formula ID="311" Data="((1+(((((((%d-30)^3)+25000)/499)/50)*100)/12))*85*2)*2" />
+		<Formula ID="311" Data="((1+(((((((%d-30)^3)+25000)/499)/50)*100)/12))*85*2)*2" /> <!-- SkillPoint -->
+		<Formula ID="312" Data="%d*1.5" /> <!-- SkillPoint -->
+		<Formula ID="313" Data="(0.9+(((((((%d-35)^3)+40440)/450)/3))))*3.3+7" /> <!-- SkillPoint -->
+		<Formula ID="314" Data="((((((5+%d)^1.74)/4)*4)/5)*7.5)-20" /> <!-- SkillPoint -->
+		<Formula ID="315" Data="(0.9+(((((((%d-35)^3)+40440)/450)/3))))*3.3+7" /> <!-- SkillPoint -->
+		<Formula ID="316" Data="((((((5+%d)^1.85)/4)*4)/5)*7.6)+10" /> <!-- SkillPoint -->
 	</SkillTree>
 	<SetOption>
 		<Formula ID="0" Data="((((%d*1.25)^1.48)+5)/1.1)" /> <!-- ItemLevel -->
@@ -588,6 +598,25 @@
 		<Formula ID="96" Data="(((%d*2.0)^1)+20)" /> <!-- ItemLevel -->
 		<Formula ID="97" Data="((((%d*1.6)^1.48)+54)/1.1)" /> <!-- ItemLevel -->
 		<Formula ID="98" Data="(((%d*1.8)^1)+19)" /> <!-- ItemLevel -->
+		<Formula ID="99" Data="(((%d*6)+70)/2)" /> <!-- ItemLevel -->
+		<Formula ID="100" Data="(((%d*2.2)^1)+5)" /> <!-- ItemLevel -->
+		<Formula ID="101" Data="((((%d*3.4)^1.56)+170)/1)" /> <!-- ItemLevel -->
+		<Formula ID="102" Data="(((%d*3.19)^1.4)+29)" /> <!-- ItemLevel -->
+		<Formula ID="103" Data="((((%d*1.7)^1.48)+74)/1.1)" /> <!-- ItemLevel -->
+		<Formula ID="104" Data="((((%d*1.7)^1.48)+74)/1.1)" /> <!-- ItemLevel -->
+		<Formula ID="105" Data="(((%d*2.25)^1)+24)" /> <!-- ItemLevel -->
+		<Formula ID="106" Data="(((%d*21.5)+128)/1.8)" /> <!-- ItemLevel -->
+		<Formula ID="107" Data="(((%d*18.5)+137)/1.8)" /> <!-- ItemLevel -->
+		<Formula ID="108" Data="((((%d*1.7)^1.5)+75)/1.1)" /> <!-- ItemLevel -->
+		<Formula ID="109" Data="(((%d*2.5)^1)+28)" /> <!-- ItemLevel -->
+		<Formula ID="110" Data="(((%d*17)+144)/1.6)" /> <!-- ItemLevel -->
+		<Formula ID="111" Data="(((%d*19)+106)/1.63)" /> <!-- ItemLevel -->
+		<Formula ID="112" Data="(((%d*2.1)^1)+25)" /> <!-- ItemLevel -->
+		<Formula ID="113" Data="(((%d*8)+140)/2)" /> <!-- ItemLevel -->
+		<Formula ID="114" Data="(((%d*1.9)^1.4)+9)" /> <!-- ItemLevel -->
+		<Formula ID="115" Data="(((%d*2.2)^1)+22)" /> <!-- ItemLevel -->
+		<Formula ID="116" Data="((((%d*1.8)^1.48)+56)/1.1)" /> <!-- ItemLevel -->
+		<Formula ID="117" Data="(((%d*2)^1)+21)" /> <!-- ItemLevel -->
 	</SetOption>
 	<Wing4thDamage>
 		<Formula ID="0" Data="100+(%d^1.2*11.8)" /> <!-- WingsLevel -->
@@ -654,6 +683,10 @@
 		<Formula ID="41" Data="2000" /> <!-- None -->
 		<Formula ID="42" Data="((%d/4)+(%d/14))" /> <!-- Strength, Agility -->
 		<Formula ID="43" Data="(%d/50)+(40+((%d+10)^2/16))+(%d*0)+(%d/3.5)" /> <!--  -->
+		<Formula ID="44" Data="(%d+%d)*0+10" /> <!-- Strength, Agility -->
+		<Formula ID="45" Data="(%d+%d)*0+5" /> <!-- Strength, Agility -->
+		<Formula ID="46" Data="(%d+%d)/3" /> <!-- Strength, Agility -->
+		<Formula ID="47" Data="%d*(((%d+%d)*0+0.05)*-1)" /> <!-- Defense, Strength, Agility -->
 	</Character>
 	<GuardianItem>
 		<Formula ID="0" Data="20+((9+%d)/2)^2" /> <!-- ItemLevel -->
@@ -752,6 +785,7 @@
 		<Formula ID="10" Data="15+(%d/110)+(%d/80)" /> <!-- Strength, Agility -->
 		<Formula ID="11" Data="12+(%d/100)+(%d/100)" /> <!-- Agility, Vitality -->
 		<Formula ID="12" Data="10+(%d/100)" /> <!-- Agility -->
+		<Formula ID="13" Data="10+(%d/120)+(%d/130)" /> <!--  -->
 	</CombatPower>
 	<LevelExp>
 		<Formula ID="0" Data="(9+%d)*%d*%d*10" /> <!-- RegularLevel, RegularLevel, RegularLevel -->
@@ -761,6 +795,6 @@
 		<Formula ID="4" Data="(((((9+%d)*%d*%d*10)+((9+(%d-255))*(%d-255)*(%d-255)*1000)-3892250000)/2)*(1+(1.2*((%d-(600-(0.3*((%d-770)*(%d-770)))))^2))/100000))" /> <!-- MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel -->
 		<Formula ID="5" Data="((%d-800)*19024359459)+(300000000*(%d-801)*((%d-800)/2))" /> <!-- MasterLevel, MasterLevel, MasterLevel -->
 		<Formula ID="6" Data="(((%d-800)*19024359459)+(300000000*(%d-801)*((%d-800)/2))+(1200000000*(%d-999)*((%d-1000)/2)))" /> <!-- MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel -->
-		<Formula ID="7" Data="(197413333648350+(((%d-1450)*753724359459)+(1500000000*(%d-1450)*(%d-1449)/2)+(150001*(%d-1450)*(%d-1449)/2)*(((%d-1450)*(%d-1449)/2)^1.4)))	</Level>" /> <!-- MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel -->
+		<Formula ID="7" Data="(197413333648350+(((%d-1450)*753724359459)+(1500000000*(%d-1450)*(%d-1449)/2)+(150001*(%d-1450)*(%d-1449)/2)*(((%d-1450)*(%d-1449)/2)^1.4)))" /> <!-- MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel, MasterLevel -->
 	</LevelExp>
 </FormulaData>

@@ -90,4 +90,5 @@
 	<Move Level="1190" MapNumber="137" StartX="1" StartY="1" EndX="255" EndY="255" Name="Kanturu Undergrounds" />
 	<Move Level="1220" MapNumber="138" StartX="1" StartY="1" EndX="255" EndY="255" Name="Ignis Volcano" />
 	<Move Level="1250" MapNumber="140" StartX="1" StartY="1" EndX="255" EndY="255" Name="Bloody Tarkan" />
+	<Move Level="1280" MapNumber="141" StartX="1" StartY="1" EndX="255" EndY="255" Name="Tormenta Island" />
 </MoveSettings>

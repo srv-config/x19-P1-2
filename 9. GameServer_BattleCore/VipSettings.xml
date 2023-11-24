@@ -117,7 +117,7 @@
 				<Enhanced Level10="50" Level11="50" Level12="50" Level13="45" Level14="45" Level15="40" AddLuck="25" />
 				<Socket Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" SocketWeapon="40" />
 				<Pentagram Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" />
-				<Wing Second="90" Monster="60" Third="40" Fourth="40" />
+				<Wing Second="90" Monster="60" Third_Feather="40" Third_Relic="24" Fourth_Feather="40" Fourth_Relic="24"/>
 			</ChaosBoxMixRates>
 		</Vip>
 		<Vip Type="2" Name="Silver" ML_MonsterMinLevel="95" MJ_MonsterMinLevel="160" PointPerResetBonus="100" NightStartHour="22" NightStartMinute="0" NightEndHour="7" NightEndMinute="30">
@@ -129,7 +129,7 @@
 				<Enhanced Level10="50" Level11="50" Level12="50" Level13="45" Level14="45" Level15="40" AddLuck="25" />
 				<Socket Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" SocketWeapon="40" />
 				<Pentagram Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" />
-				<Wing Second="90" Monster="60" Third="40" Fourth="40" />
+				<Wing Second="90" Monster="60" Third_Feather="40" Third_Relic="24" Fourth_Feather="40" Fourth_Relic="24"/>
 			</ChaosBoxMixRates>
 		</Vip>
 		<Vip Type="3" Name="Gold" ML_MonsterMinLevel="95" MJ_MonsterMinLevel="160" PointPerResetBonus="150" NightStartHour="22" NightStartMinute="0" NightEndHour="7" NightEndMinute="30">
@@ -141,7 +141,7 @@
 				<Enhanced Level10="50" Level11="50" Level12="50" Level13="45" Level14="45" Level15="40" AddLuck="25" />
 				<Socket Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" SocketWeapon="40" />
 				<Pentagram Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" />
-				<Wing Second="90" Monster="60" Third="40" Fourth="40" />
+				<Wing Second="90" Monster="60" Third_Feather="40" Third_Relic="24" Fourth_Feather="40" Fourth_Relic="24"/>
 			</ChaosBoxMixRates>
 		</Vip>
 		<Vip Type="4" Name="Platinum" ML_MonsterMinLevel="95" MJ_MonsterMinLevel="160" PointPerResetBonus="200" NightStartHour="22" NightStartMinute="0" NightEndHour="7" NightEndMinute="30">
@@ -153,7 +153,7 @@
 				<Enhanced Level10="50" Level11="50" Level12="50" Level13="45" Level14="45" Level15="40" AddLuck="25" />
 				<Socket Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" SocketWeapon="40" />
 				<Pentagram Level10="40" Level11="40" Level12="40" Level13="35" Level14="35" Level15="30" AddLuck="25" />
-				<Wing Second="90" Monster="60" Third="40" Fourth="40" />
+				<Wing Second="90" Monster="60" Third_Feather="40" Third_Relic="24" Fourth_Feather="40" Fourth_Relic="24"/>
 			</ChaosBoxMixRates>
 		</Vip>
 	</VipTypes>

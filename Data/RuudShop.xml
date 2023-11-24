@@ -28,7 +28,7 @@
 //		7: Grow Lancer
 //		8: Rune Wizard
 //		9: Slayer
-//		10: GunCrusher
+//		10: Gun Crusher
 //		11: Light Wizard
 //		12: Mage Lemuria
 //		13: Illusion Knight
@@ -135,6 +135,8 @@
 		<Item Cat="12" Index="86" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Brilliant Anvil -->
 		<Item Cat="20" Index="112" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="25000" /> <!-- Binding Frame -->
 		<Item Cat="20" Index="119" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Seal of Ur -->
+		<Item Cat="12" Index="96" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Lightning Soul -->
+		<Item Cat="12" Index="92" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Apocalypse Anvil -->
 	</Character>
 	<Character Class="0" Name="Dark Wizard">
 		<Item Cat="13" Index="359" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Armor of Sealed Transcendence -->
@@ -239,6 +241,9 @@
 		<Item Cat="13" Index="401" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Pants of Sealed Tenacity -->
 		<Item Cat="13" Index="402" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Gloves of Sealed Tenacity -->
 		<Item Cat="3" Index="19" Level="0" Skill="0" Luck="-1" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Bloodangel Lance -->
+		<Item Cat="12" Index="95" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Oversting Scroll -->
+		<Item Cat="12" Index="98" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="1000" /> <!-- Wild Breath Scroll -->
+		<Item Cat="6" Index="60" Level="0" Skill="0" Luck="0" Option="0" Exc="-10" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="100000" /> <!-- Blood Angel Lancer Shield -->
 	</Character>
 	<Character Class="8" Name="Rune Wizard">
 		<Item Cat="13" Index="355" Level="0" Skill="0" Luck="0" Option="0" Exc="-1" SetItem="0" SocketCount="0" Element="0" Duration="0" Price="50000" /> <!-- Bloodangel Armor of Sealed Vengeance -->

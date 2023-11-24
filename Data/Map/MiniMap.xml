@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2010-2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -406,7 +406,8 @@
 	<!-- Elbeland -->
 		<Tag Id="0" MapNumber="51" X="248" Y="149" Name="Atlans Entrance" />
 		<Tag Id="1" MapNumber="51" X="19" Y="27" Name="Devias Entrance" />
-		<Tag Id="2" MapNumber="51" X="219" Y="120" Name="Temple of Arenil - Entrance" />
+		<Tag Id="2" MapNumber="51" X="219" Y="120" Name="Temple of Arenil Entrance" />
+		<Tag Id="3" MapNumber="51" X="182" Y="195" Name="Tormenta Island Entrance" />
 	<!-- Swamp of Calmness -->
 		<Tag Id="0" MapNumber="56" X="139" Y="125" Name="Hunting Grounds Entrance (1)" />
 		<Tag Id="1" MapNumber="56" X="124" Y="109" Name="Hunting Grounds Entrance (2)" />
@@ -578,5 +579,11 @@
 		<Tag Id="5" MapNumber="140" X="139" Y="59" Name="Portal (A)" />
 		<Tag Id="6" MapNumber="140" X="163" Y="165" Name="Portal (B)" />
 		<Tag Id="7" MapNumber="140" X="134" Y="21" Name="Tarkan Entrance" />
+	<!-- Tormenta Island -->
+		<Tag Id="0" MapNumber="141" X="151" Y="97" Name="Fire Element Area" />
+		<Tag Id="1" MapNumber="141" X="161" Y="134" Name="Water Element Area" />
+		<Tag Id="2" MapNumber="141" X="98" Y="128" Name="Earth Element Area" />
+		<Tag Id="3" MapNumber="141" X="114" Y="92" Name="Wind Element Area" />
+		<Tag Id="4" MapNumber="141" X="129" Y="153" Name="Darkness Element Area" />
 	</TypeTwo>
 </MiniMapObjects>

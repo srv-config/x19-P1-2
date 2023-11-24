@@ -13,9 +13,9 @@
 //
 // ### MuunSystem::EnergyConvertSettings::Muun ###
 //	Rank: Rank of a Muun (max Muun rank defines MuunInfo.xml), -1 if not applies
-//	RankPoint: Energy points to apply on Wizardy Stone for Muun of specified Rank
+//	RankPoint: Energy points to apply on Wizardry Stone for Muun of specified Rank
 //	Level: Level of a Muun (max Muun level defines MuunInfo.xml), -1 if not applies
-//	LevelPoint: Energy points to apply on Wizardy Stone for Muun of specified Level
+//	LevelPoint: Energy points to apply on Wizardry Stone for Muun of specified Level
 //
 // ### MuunSystem::RequiredItemsExchange::Item ### - Items required for exchange for a reward
 //	Cat: Category of an item, ItemList.xml
@@ -64,12 +64,12 @@
 
 <MuunSystem>
 	<EnergyConvertSettings StoneOfEvolutionPoint="2">
-		<Muun Rank="1"	RankPoint="1"	Level="0" LevelPoint="4" />
-		<Muun Rank="2"	RankPoint="2"	Level="1" LevelPoint="3" />
-		<Muun Rank="3"	RankPoint="3"	Level="2" LevelPoint="6" />
-		<Muun Rank="4"	RankPoint="4"	Level="3" LevelPoint="9" />
-		<Muun Rank="5"	RankPoint="5"	Level="4" LevelPoint="12" />
-		<Muun Rank="6"	RankPoint="6"	Level="5" LevelPoint="15" />
+		<Muun Rank="1" RankPoint="1" Level="0" LevelPoint="4" />
+		<Muun Rank="2" RankPoint="2" Level="1" LevelPoint="3" />
+		<Muun Rank="3" RankPoint="3" Level="2" LevelPoint="6" />
+		<Muun Rank="4" RankPoint="4" Level="3" LevelPoint="9" />
+		<Muun Rank="5" RankPoint="5" Level="4" LevelPoint="12" />
+		<Muun Rank="6" RankPoint="6" Level="5" LevelPoint="15" />
 	</EnergyConvertSettings>
 
 	<RequiredItemsExchange> <!-- Modification of this section requires changes in MuunExchange.bmd file -->
@@ -82,8 +82,8 @@
 	</RequiredItemsExchange>
 
 	<BagListSettings>
-		<Bag Index="0" ItemCat="16" ItemIndex="211" ItemMinLevel="0" ItemMaxLevel="0" MuunEvoItemCat="16" MuunEvoItemIndex="20" Skill="0" Luck="0" Option="0" Exc="-1" InventoryCheck="22" />
-		<Bag Index="1" ItemCat="16" ItemIndex="211" ItemMinLevel="0" ItemMaxLevel="0" MuunEvoItemCat="16" MuunEvoItemIndex="348" Skill="0" Luck="0" Option="0" Exc="-1" InventoryCheck="22" />
+		<Bag Index="0" ItemCat="16" ItemIndex="211" ItemMinLevel="0" ItemMaxLevel="0" MuunEvoItemCat="16" MuunEvoItemIndex="245" Skill="0" Luck="0" Option="0" Exc="-1" InventoryCheck="22" />
+		<Bag Index="1" ItemCat="16" ItemIndex="211" ItemMinLevel="0" ItemMaxLevel="0" MuunEvoItemCat="16" MuunEvoItemIndex="243" Skill="0" Luck="0" Option="0" Exc="-1" InventoryCheck="22" />
 		<Bag Index="2" ItemCat="16" ItemIndex="211" ItemMinLevel="0" ItemMaxLevel="0" MuunEvoItemCat="16" MuunEvoItemIndex="61" Skill="0" Luck="0" Option="0" Exc="-1" InventoryCheck="22" />
 		<Bag Index="3" ItemCat="16" ItemIndex="211" ItemMinLevel="0" ItemMaxLevel="0" MuunEvoItemCat="16" MuunEvoItemIndex="326" Skill="0" Luck="0" Option="0" Exc="-1" InventoryCheck="22" />
 		<Bag Index="4" ItemCat="16" ItemIndex="211" ItemMinLevel="0" ItemMaxLevel="0" MuunEvoItemCat="16" MuunEvoItemIndex="328" Skill="0" Luck="0" Option="0" Exc="-1" InventoryCheck="22" />

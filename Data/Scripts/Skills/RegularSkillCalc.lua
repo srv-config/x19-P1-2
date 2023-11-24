@@ -1,7 +1,7 @@
 -- // ============================================================
 -- // == INTERNATIONAL GAMING CENTER NETWORK
 -- // == www.igcn.mu
--- // == (C) 2019 IGC-Network (R)
+-- // == (C) 2010-2023 IGC-Network (R)
 -- // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- // == File is a part of IGCN Group MuOnline Server files.
 -- // ============================================================
@@ -915,21 +915,26 @@ function GrowLancerShiningPeak(InDamage, Strength, Dexterity, SkillTreeBonus_Ret
 	return OutDamage
 end
 
--- SkillID: 278, Wrath
-function GrowLancerWrath(Strength, Dexterity, Energy)
-	local SkillIncDamage = 50
-	local SkillDecDefense = 30
-	local SkillTime = 15
-
-	return SkillIncDamage, SkillDecDefense, SkillTime
-end
-
 -- SkillID: 273, Obsidian
 function GrowLancerObsidian(Index, TargetIndex, TargetClass, Strength, Dexterity, Energy)
 	local SkillEffect = Strength / 20
-	local SkillTime = 120
+	local SkillTime = 240
 
 	return SkillEffect, SkillTime
+end
+
+-- SkillID: 2036, Oversting
+function GrowLancerOversting(InDamage, Dexterity, SkillTreeBonus)
+	local OutDamage = (InDamage * 1.0) * (Dexterity / 10 + 97 + SkillTreeBonus) / 100.0
+	
+	return OutDamage			   
+end
+
+-- SkillID: 2085, Wild Breath
+function GrowLancerWildBreath(InDamage, Strength, SkillTreeBonus)
+	local OutDamage = (InDamage * 0.5) * (Strength / 10 + 97 + SkillTreeBonus) / 100.0
+	
+	return OutDamage
 end
 
 -- SkillID: X, Bastion - (BuffEffectManager.xml -> Index: 238)
@@ -940,7 +945,7 @@ function BastionBuffCalcSuccessAndMinSD(CharacterLevel)
 	if (SuccessRate > 100) then
 		SuccessRate = 100
 	end
-
+	
 	return SuccessRate, MinShieldPercent
 end
 
@@ -1514,7 +1519,7 @@ function IllusionKnightBladeStorm(InDamage, Strength, Dexterity, Vitality, Energ
 	return OutDamage
 end
 
--- SkillID: 2031, Illusion Avatar, formula controls base Life and Damage before mastery improvments
+-- SkillID: 2031, Illusion Avatar, formula controls base Life and Damage before mastery improvements
 function IllusionKnightAvatarCalc(Strength, Dexterity, Vitality, Energy, InDamageMin, InDamageMax, PlayerLevel, PlayerMasterLevel, PlayerMaxLife)
 	local PlayerTotalLevel = PlayerLevel + PlayerMasterLevel
 	local OutDamageMin = InDamageMin * 1.5
@@ -1523,3 +1528,4 @@ function IllusionKnightAvatarCalc(Strength, Dexterity, Vitality, Energy, InDamag
 	
 	return OutDamageMin, OutDamageMax, OutLife
 end
+ 

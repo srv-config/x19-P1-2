@@ -1,7 +1,7 @@
 -- // ============================================================
 -- // == INTERNATIONAL GAMING CENTER NETWORK
 -- // == www.igcn.mu
--- // == (C) 2019 IGC-Network (R)
+-- // == (C) 2010-2023 IGC-Network (R)
 -- // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -- // == File is a part of IGCN Group MuOnline Server files.
 -- // ============================================================
@@ -152,6 +152,18 @@ end
 function ShiningPeak_4thEnchant_Lancer(InDamage, Strength, Dexterity, SkillTreeBonus_Retailation, SkillTreeBonus_Rage)
 	local OutDamage = InDamage * (((Strength / 10 + 97 + SkillTreeBonus_Retailation) + (Dexterity / 10 + 97 + SkillTreeBonus_Rage)) * 0.8) / 100.0
 	OutDamage = OutDamage / 3
+
+	return OutDamage
+end
+
+function Oversting_4thEnchant_Lancer(InDamage, Dexterity, SkillTreeBonus)
+	local OutDamage = (InDamage * 1.0) * (Dexterity / 10 + 97 + SkillTreeBonus) / 100.0
+
+	return OutDamage
+end
+
+function WildBreath_4thEnchant_Lancer(InDamage, Strength, SkillTreeBonus)
+	local OutDamage = (InDamage * 0.5) * (Strength / 10 + 97 + SkillTreeBonus) / 100.0
 
 	return OutDamage
 end

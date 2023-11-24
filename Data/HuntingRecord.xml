@@ -86,8 +86,9 @@
 		<Map Index="137" Name="Kanturu Undergrounds" />
 		<Map Index="138" Name="Ignis Volcano" />
 		<Map Index="140" Name="Bloody Tarkan" />
+		<Map Index="141" Name="Tormenta Island" />
 	</MapIncluded>
-	<MonstersExcluded> <!-- Monsters excluded from huntin records -->
+	<MonstersExcluded> <!-- Monsters excluded from hunting records -->
 		<Monster Index="413" Name="Gold Rabbit" />
 		<Monster Index="463" Name="Fire Flame Ghost" />
 		<Monster Index="466" Name="Cursed Goblins" />

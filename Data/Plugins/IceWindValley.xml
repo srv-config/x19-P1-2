@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2020 IGC-Network (R)
+// == (C) 2010-2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -44,12 +44,13 @@
 //
 // ### IceWindValley::Settings ###
 //	EventStartMoveToDevias: Determines move to town mode on event start:
-//		~ 0: Only registered guild members located in Devias map
-//		~ 1: Registered guild members from any map
+//		~ 0: Do not move
+//		~ 1: Move all registered members to Devias 1
 //
+//	MoveGateID: Gate ID to use for EventStartMoveToDevias option
 //	BlockMoveDevias3: If set to 1 the Devias 3 entry will be blocked
 //	HideUnregisteredPlayer: Applies invisibility buff for any player not registered to the event, making it unable to disturb the event, 0/1
-//	MaxLeaveTime: Maximum time the throne can be left unoccuped. Additionally acts as a cooldown, see PlayType setting, seconds
+//	MaxLeaveTime: Maximum time the throne can be left unoccupied. Additionally acts as a cool-down, see PlayType setting, seconds
 //	TotalSitdownTime: Amount of time required to sit on throne, seconds
 //	GuildAssistantCanSit: Determines whether Guild Assistant can sit on throne, 0/1
 //	GuildMemberCanSit: Determines whether Guild Member can sit on throne, 0/1
@@ -57,8 +58,8 @@
 //~~ GuildAssistantCanSit and GuildMemberCanSit apply to PlayType = 0 only
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //	PlayType: 
-//		~ 0: Other guild master must wait for cooldown (MaxLeaveTime) to end from previous guild master to be able to take seat
-//		~ 1: Other guild master do not need to wait cooldown time to take the seat, each guild has its own time as long as seat is not unoccupied longer than MaxLeaveTime
+//		~ 0: Other guild master must wait for cool-down (MaxLeaveTime) to end from previous guild master to be able to take seat
+//		~ 1: Other guild master do not need to wait cool-down time to take the seat, each guild has its own time as long as seat is not unoccupied longer than MaxLeaveTime
 //
 //	VibrationEffect: Deactivates or activates game vibration effect, 0/1
 //	VibrationDuration: Vibration effect duration, seconds
@@ -67,7 +68,7 @@
 // ### IceWindValley::CityLord ###
 //	EnableMap: Enables specified map locked to Ice Wind Castle owners
 //	Map: Number of map to lock
-//	Gate: Gate index to use for the watp, see GateSettings.xml
+//	Gate: Gate index to use for the warp, see GateSettings.xml
 //	NPC: Index of warp NPC, see MonsterList.xml
 //	NPCMap: Index map the NPC is located at, see MapList.xml
 //	NPCX: The X coordinate of warp NPC
@@ -79,10 +80,10 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // ### IceWindValley::CastleArea ###
-//	StartX: Start X cordinate of Ice Valley Castle
-//	StartY: Start Y cordinate of Ice Valley Castle
-//	EndX: End X cordinate of Ice Valley Castle
-//	EndY: End Y cordinate of Ice Valley Castle 
+//	StartX: Start X coordinate of Ice Valley Castle
+//	StartY: Start Y coordinate of Ice Valley Castle
+//	EndX: End X coordinate of Ice Valley Castle
+//	EndY: End Y coordinate of Ice Valley Castle 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ Coordinates define area within Devias map
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -125,7 +126,7 @@
 //	EventBagReward: If set to 1 guild member will be rewarded an item from Event_IWC_Player.xml bag
 //
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//~~ The reward buffs must be dofined in BuffEffectManager.xm::BuffEffectManager::Period section to apply them as period buffs
+//~~ The reward buffs must be defined in BuffEffectManager.xml::BuffEffectManager::Period section to apply them as period buffs
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //
 // STRICTLY NO COMMENTS INSIDE TAGS
@@ -134,24 +135,24 @@
 <IceWindValley Enabled="0" ServerCode="0" ActiveDay="-1" Type="1">
 	<StartTime Hour="8" Minute="0" Duration="30" RegistrationHour="7" RegistrationMinute="50" RegistrationDuration="5" />
 	<ApplicationConditions MinGuildMember="1" MaxGuildMember="10" WCoin="0" GoblinPoint="0" Ruud="0" Contribution="0" Zen="0"/>
-	<Settings EventStartMoveToDevias="0" BlockMoveDevias3="1" HideUnregisteredPlayer="1" MaxLeaveTime="30" TotalSitdownTime="60" GuildAssistantCanSit="1" GuildMemberCanSit="1" PlayType="0" VibrationEffect="1" VibrationDuration="10" ApplyFlameEffect="1"/>
+	<Settings EventStartMoveToDevias="0" MoveGateID="22" BlockMoveDevias3="1" HideUnregisteredPlayer="1" MaxLeaveTime="30" TotalSitdownTime="60" GuildAssistantCanSit="1" GuildMemberCanSit="1" PlayType="0" VibrationEffect="1" VibrationDuration="10" ApplyFlameEffect="1"/>
 
 	<CityLord EnableMap="1" Map="10" Gate="63" NPC="234" NPCMap="0" NPCX="128" NPCY="135" />
 	<CastleArea StartX="207" StartY="203" EndX="242" EndY="239" />
 
 	<Strings>
-		<String Id="0" Text="Icewind Valley Siege has not begun" />
-		<String Id="1" Text="Icewind Valley Siege Application has not started" />
-		<String Id="2" Text="Your guild has applied for Icewind Siege" />
-		<String Id="3" Text="Icewind Valley Siege Application has begun, please apply as soon as possible!" />
-		<String Id="4" Text="Icewind Valley Siege Battle has begun!" />
-		<String Id="5" Text="Icewind Valley Siege Battle is over!" />
+		<String Id="0" Text="Ice Wind Valley Siege has not begun" />
+		<String Id="1" Text="Ice Wind Valley Siege Application has not started" />
+		<String Id="2" Text="Your guild has applied for Ice Wind Siege" />
+		<String Id="3" Text="Ice Wind Valley Siege Application has begun, please apply as soon as possible!" />
+		<String Id="4" Text="Ice Wind Valley Siege Battle has begun!" />
+		<String Id="5" Text="Ice Wind Valley Siege Battle is over!" />
 		<String Id="6" Text="Guild Master Character %s has been seated on the throne for %d seconds" /> <!-- Time sitting on the throne -->
 		<String Id="7" Text="You have %d seconds left from the throne. Please go to the throne as soon as possible." /> <!-- Countdown to the throne after being killed while sitting on the throne -->
-		<String Id="8" Text="Congratulations to Guild '%s' for occupying Icewind Vale Castle!" />
+		<String Id="8" Text="Congratulations to Guild '%s' for occupying Ice Wind Vale Castle!" />
 		<String Id="9" Text="** Ice Wind Valley will begin in %d minutes **" />
-		<String Id="10" Text="** Icewind Dale starts with %d seconds remaining **" /> <!-- Countdown starts 30 seconds before turning on -->
-		<String Id="11" Text="** The owner %s of Icewind Valley is live on the %s map **" /> <!-- IceWind Valley City Master Character Login Game Tips -->
+		<String Id="10" Text="** Ice Wind Dale starts with %d seconds remaining **" /> <!-- Countdown starts 30 seconds before turning on -->
+		<String Id="11" Text="** The owner %s of Ice Wind Valley is live on the %s map **" /> <!-- Ice Wind Valley City Master Character Login Game Tips -->
 		<String Id="12" Text="You need to be a Guild Master to register" />
 		<String Id="13" Text="Minimum Guild members to register is %d" />
 		<String Id="14" Text="Ice Wind Registration is over" />

@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2019 IGC-Network (R)
+// == (C) 2010-2023 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -168,6 +168,7 @@
 		<Map Number="138" File="138_Volcano_Ignis.att" />
 		<Map Number="139" File="139_BossBattle.att" />
 		<Map Number="140" File="140_BloodyTarkan.att" />
+		<Map Number="141" File="141_TormentaIsland.att" />
 	</DefaultMaps>
 	
 	<CrywolfEventAttr>
