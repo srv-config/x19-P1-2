@@ -1058,15 +1058,6 @@ function ExpansionWizardryCalc(Class, Energy)
 	return SkillEffect, SkillTime
 end
 
--- SkillID: 293, Bat Flock - (Damage over time)
-function BatFlock_DotDamage(InDamage, Strength, Energy)
-	local Damage = InDamage
-	local DotDamage = InDamage / 10
-	local Time = 3
-	
-	return Damage, DotDamage, Time
-end
-
 -- SkillID: 293, Bat Flock - (Damage)
 function SlayerBatFlockCalc(InDamage, Strength, Dexterity)
 	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100

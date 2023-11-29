@@ -1086,24 +1086,6 @@ function ExpansionWizardryCalc_Level2(Class, Energy, MagicDamageMax, SkillTreeVa
 	return SkillEffect1, SkillEffect2, SkillTime
 end
 
--- SkillID: 781, Bat Flock Strengthener - (Damage over time) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
-function BatFlock_MasterLevel1_DotDamage(InDamage, Strength, Energy)
-	local Damage = InDamage
-	local DotDamage = InDamage / 10
-	local Time = 3
-	
-	return Damage, DotDamage, Time
-end
-
--- SkillID: 782, Bat Flock Mastery - (Damage over time) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
-function BatFlock_MasterLevel2_DotDamage(InDamage, Strength, Energy)
-	local Damage = InDamage
-	local DotDamage = (InDamage / 10)
-	local Time = 3
-	
-	return Damage, DotDamage, Time
-end
-
 -- SkillID: 781, Bat Flock Strengthener - (Damage) - (Slayer, Royal Slayer, Master Slayer, Slaughterer)
 function SlayerBatFlock_MasterLevel1_Calc(InDamage, Strength, Dexterity)
 	local OutDamage = InDamage * ((Strength / 8) + (Dexterity / 28) + 120) / 100
