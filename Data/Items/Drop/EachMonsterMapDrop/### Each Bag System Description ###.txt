@@ -39,9 +39,9 @@
 //
 //	Option:
 //		~ -1: random, up to 16 or 28, depending on server setting
-//		~ -2: official and original option selection, complex to explain, depending on many aspects, max option value for this setting is +12
+//		~ -2: official and original option selection, complex to explain, depending on many aspects, max option value for this setting is +12, applies to excellent items, pendants and rings
 //		~ 0: no option
-//		~ 1,2,3,4,5,6,7: with specified option (+4,+8,+12,+16,+20,+24,+28)
+//		~ 1,2,3,4,5,6,7: with specified option (+4,+8,+12,+16,+20,+24,+28), check ItemDropRateControl.xml::OptionDropMode for more info
 //
 //	Exc:
 //		-1: no exc option
