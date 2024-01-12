@@ -143,7 +143,7 @@
 		<Formula ID="0" Data="(%d*15)+((((%d*15)*0.2)/500)*(%d-%d))" /> <!-- TotalLevel, MonsterExpLevel, MonsterExpLevel, TotalLevel -->
 		<Formula ID="1" Data="(%d*15)+((((%d*15)*0.2)/500)*(%d-%d))" /> <!-- MonsterExpLevel, TotalLevel, MonsterExpLevel, TotalLevel -->
 		<Formula ID="2" Data="%d*%f*%d/%d" /> <!-- SoloExp, PartyAddExp, MembLevel, TotalLevel -->
-		<Formula ID="3" Data="%d*(%d/%d)" /> <!-- SoloExp, AttackDamage, TotalDamage -->
+		<Formula ID="3" Data="%d*(%I64d/%I64d)" /> <!-- SoloExp, AttackDamage, TotalDamage -->
 		<Formula ID="4" Data="%d*%f*%d/%d" /> <!-- SoloExp, PartyAddExp, MembLevel, TotalLevel -->
 		<!-- <Formula ID="5" Data="(%d*15)+((((%d*15)*0.2)/500)*(%d-%d))" /> -->
 		<!-- <Formula ID="6" Data="(((1000*15)+((((1000*15)*0.2)/500)*(%d-1000)))-(((%d-1000)*15)+(((((%d-1000)*15)*0.2)/500)*(%d-1000))*((1+(((%d-1000)^1.1)/1000))*0.3)))" /> -->
