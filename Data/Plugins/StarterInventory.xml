@@ -3,7 +3,7 @@
 // ============================================================
 // == INTERNATIONAL GAMING CENTER NETWORK
 // == www.igcn.mu
-// == (C) 2023 IGC-Network (R)
+// == (C) 2010-2024 IGC-Network (R)
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // == File is a part of IGCN Group MuOnline Server files.
 // ============================================================
@@ -44,12 +44,14 @@
 //		~ 2: Second Evo
 //		~ 3: Third Evo
 //		~ 4: Fourth Evo
+//		~ 5: Fifth Evo
 //
 //	Level: Regular level of character to set, applies if set greater than 0
 //	MasterLevel: Master level of character to set, applies if set greater than 0
 //	Resets: Number of resets to set to the character, applies if set greater than 0
 //	MarlonFirstQuest: Defines whether to set first Marlon Quest as completed, may be required for selected characters, such as Dark Knight, 0/1
 //	MarlonSecondQuest: Defines whether to set second Marlon Quest as completed, may be required for selected characters, such as Dark Knight, 0/1
+//
 //	Zen: Number of Zen to set to the character, max: 2147483647
 //	Ruud: Number of Ruud to set to the character, max: 2147483647
 //	InventoryExpansion: Apply expanded inventory
@@ -153,9 +155,13 @@
 //			-2: Random options set (based on rates from ArtifactSystem.xml)
 //			X1;Y1;X2;Y2;X3;Y3: X is OptionType value from ArtifactOption.xml, -1 if not applies, Y is value index, 1~10, referring to ValueX of selected option, -1 if not applies
 //
-//	SetItem:
+//	SetItem: To reward ancient item properly it must added as ancient in relevant systems, otherwise option will be ignored
+//		~ -1: Random tier based on defined item
 //		~ 0: no ancient
-//		~ 1: ancient (random Tier of specified item) - must be added as ancient, otherwise option will be ignored
+//		~ 1: Tier I ancient
+//		~ 2: Tier II ancient
+//		~ 3: Tier III ancient
+//		~ 4: Tier IV ancient
 //
 //	SocketCount:
 //		~ 0: no Socket slots
@@ -168,6 +174,7 @@
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ Type attribute of the item must be set to 2 - refer to ItemList.xml
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//
 //	ElementalItem:
 //		~ 0: no Elemental attribute
 //		~ 1: Fire
@@ -186,6 +193,7 @@
 //	Duration: Duration of the buff, seconds
 //	Name: Name of the Buff, used for in-file description only
 //	Description: Description of the Buff, used for in-file description only
+//
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //~~ Section is used only to define item based buffs that are not inventory activated buff items
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
